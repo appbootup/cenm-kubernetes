@@ -1,0 +1,12 @@
+# file: ~/.gitignore_global
+.DS_Store
+.idea
+jars
+Volumes
+*.jks
+volumes/*
+resources/*
+clean/volumes/**/*.jks
+pki/logs
+pki/*.jks
+pki/*.crl
