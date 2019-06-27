@@ -4,7 +4,7 @@ set -eux
 
 # Generate volumes for the images
 rm -rf ./volumes
-cp -r clean/volumes ./volumes
+cp -r templates/volumes ./volumes
 
 # Copy correct jars to image folders
 cp ./jars/corda-finance-contracts-4.0.jar ./volumes/parties/PartyA/cordapps/

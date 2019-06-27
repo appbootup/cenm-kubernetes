@@ -27,4 +27,4 @@ USER corda
 EXPOSE 50000
 
 # Start it
-CMD java -jar signer.jar --config-file=./persistent/signer.conf --ignore-migration
+CMD java -jar signer.jar --config-file=./persistent/signer.conf
