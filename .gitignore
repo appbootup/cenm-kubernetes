@@ -3,10 +3,11 @@
 .idea
 jars
 Volumes
-*.jks
+pki/*.jks
 volumes/*
 resources/*
 clean/volumes/**/*.jks
 pki/logs
 pki/*.jks
+
 pki/*.crl
