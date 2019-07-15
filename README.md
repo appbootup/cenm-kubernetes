@@ -13,7 +13,6 @@ There is an increasing demand from our R3 customers to run Corda and its network
 
 ## How to run 
 
-<<<<<<< HEAD
 ## TLDR;
 1. Run the `inital_setup.sh` script followed by the `start.sh` script.
 2. Check the status of your pods via `kubectl get pods`
