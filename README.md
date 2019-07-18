@@ -13,9 +13,9 @@ There is an increasing demand from our R3 customers to run Corda and its network
 
 ## How to run 
 
-1. Run the `inital_setup.sh` script followed by the `start.sh` script
+1. Run the `setup.sh` script followed by the `start.sh` script
 2. Check the status of your pods via `kubectl get pods`
-3. To pull everything down and recopy the volumes templates run `delete.sh` script
+3. To pull everything down and recopy the volumes templates run `stop.sh` script
 
 ## Interact with CENM & Corda
 
