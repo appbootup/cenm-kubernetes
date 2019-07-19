@@ -9,5 +9,4 @@ resources/*
 clean/volumes/**/*.jks
 pki/logs
 pki/*.jks
-
 pki/*.crl
