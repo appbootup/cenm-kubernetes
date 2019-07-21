@@ -4,7 +4,7 @@ set -eux
 NO_CACHE=--no-cache
 NO_CACHE=
 
-cd images/enm_identity_manager-image
+cd ../images/enm_identity_manager-image
 docker build -t enm_identity_manager . -f enm_identity_manager-Dockerfile $NO_CACHE
 cd ../../
 
