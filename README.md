@@ -22,6 +22,7 @@ There is an increasing demand from our R3 customers to run Corda and its network
 3. Open shell on one of the pods by `kubectl exec -it --pod name-- -- /bin/bash`
 4. If it's a node pod ssh in by `ssh localhost -p 2223 -l testuser` (password in the node.confs)
 5. In the shell, run `run networkMapSnapshot` as a sanity check
+6. To pull everything down and recopy the volumes templates run `delete.sh` script
 
 ## To-do
 
